@@ -1,0 +1,89 @@
+html {
+  width:100vw;
+  overflow-x:hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(170, 170, 170);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.todo_title input {
+  height: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: #81e6ffb9;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.description textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  height: 55px;
+  resize: none;
+  border-radius: 10px;
+  background-color: #d5fde68e;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.description textarea:focus, .todo_title input:focus {
+  outline: none;
+  background-color: rgb(250, 250, 250);
+}
+
+.date input:focus {
+  outline: none;
+}
+
+.date {
+  color: white;
+}
+
+.date input {
+  color: rgb(110, 108, 108);;
+  max-width: 150px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: #81e6ffb9;;
+  border: 1px solid rgb(255, 255, 255);
+  height: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.btn {
+  margin-top: 10px;
+  background-color: #81e6ffb9;;
+  font-size: 15px;
+  padding: 3px 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  color: rgb(110, 108, 108);
+}
+
+.btn:hover, .date input:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.done {
+  background-color: rgb(0, 255, 34) !important;
+}
